@@ -14,7 +14,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 		ClearDrawScreen();
 
 		SetFontSize(120);
-		DrawFormatString(75, 250, fontColor, "Just Do It");
+		//DrawFormatString(75, 250, fontColor, "Just Do It");
 
 		ScreenFlip();
 
