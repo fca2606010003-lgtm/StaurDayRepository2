@@ -27,6 +27,9 @@ void Camera::Update()
 	}
 	//
 	if (x < 0) { x = 0; }
-	if (x > GameConst::SCREEN_WINDTH) { x = GameConst::SCREEN_WINDTH;}
+	if (x > GameConst::SCREEN_WIDTH) { x = GameConst::SCREEN_WIDTH;}
 }
-float Camera::GatX()const
+float Camera::GetX() const
+{
+	return x;
+}

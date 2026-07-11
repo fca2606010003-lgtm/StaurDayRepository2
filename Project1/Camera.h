@@ -8,6 +8,6 @@ public:
 
 	void Update();
 
-	float GetX()const;
+	float GetX() const;
 };
 
