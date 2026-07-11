@@ -8,7 +8,7 @@
 class Game 
 {
 private:
-	FrameManager framemanager;
+	FrameManager frameManager;
 
 	Animation animations;
 
